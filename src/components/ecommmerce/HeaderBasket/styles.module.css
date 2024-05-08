@@ -1,0 +1,51 @@
+.basketContainer {
+    position: relative;
+    cursor: pointer;
+    align-self: flex-end;
+}
+
+.basketQuantity {
+    background-color: var(--main-color);
+    height: 22px;
+    width: 22px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid;
+    position: absolute;
+    top: -16px;
+    right: -5px;
+    font-size: 12px;
+
+}
+
+
+.pumbCartQuantity {
+    animation: debunce 300ms ease-out;
+}
+
+
+@keyframes debunce {
+    0% {
+        transform: scale(1);
+    }
+
+    20% {
+        transform: scale(0.8);
+    }
+
+    50% {
+        transform: scale(1.7);
+    }
+
+
+    75% {
+        transform: scale(1.1);
+    }
+
+
+    100% {
+        transform: scale(1);
+    }
+
+
+}

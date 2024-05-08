@@ -1,0 +1,12 @@
+.totalPriceContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    width: 100%;
+}
+
+.totalPriceContainer span {
+    display: block;
+    font-size: 17px;
+    font-weight: bold;
+}
